@@ -1,21 +1,99 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>NM Tousik</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070b14">
+  <meta name="description" content="NM Tousik — Computer Science & Technology student, aspiring web developer, and eFootball tournament organizer.">
+  <title>NM Tousik | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home">NM<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li><li><a href="#journey">Journey</a></li>
+        <li><a href="#contact" class="nav-cta">Let's connect <span>↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <h1>Welcome to NM Tousik's Website!</h1>
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> WELCOME TO MY DIGITAL SPACE</p>
+        <h1>Hi, I'm <span class="gradient-text">NM Tousik</span><br><span class="muted-heading">I’m a</span> <span class="typed-word" id="typed-word">Web Developer</span><span class="cursor">|</span></h1>
+        <p class="hero-description">A Computer Science & Technology student exploring the world of code, creative web experiences, and technology. I’m learning by building — one project at a time.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#journey">Explore my journey <span>↘</span></a><a class="button button-ghost" href="#contact">Get in touch</a></div>
+        <div class="hero-meta"><span>📍 Sherpur, Bangladesh</span><span class="meta-divider"></span><span>💻 Learning & building</span></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-card">
+          <div class="card-top"><span class="tiny-label">STUDENT • CREATOR</span><span class="card-dots">● ● ●</span></div>
+          <div class="avatar-mark"><span class="initial-n">N</span><span class="initial-t">T</span></div>
+          <div class="profile-name"><h2>NM Tousik</h2><span class="verified-mark">✦</span></div>
+          <p class="profile-role">Computer Science Student</p>
+          <div class="profile-location">⌖ &nbsp; Sherpur, Bangladesh</div>
+          <div class="mini-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="profile-status"><span class="status-dot"></span> Open to learning & collaboration</div>
+          <div class="card-bottom"><span>PERSONAL PORTFOLIO</span><span>✦</span></div>
+        </div>
+        <div class="floating-chip chip-code"><span>⌘</span> Building the web</div>
+        <div class="floating-chip chip-ball">⚽ Football fan</div>
+      </div>
+    </section>
 
-    <h2>About Me</h2>
-    <p>I am a Computer Science Student.</p>
+    <section class="section container reveal" id="about">
+      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Learning today.<br><span class="gradient-text">Building for tomorrow.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-text"><p>Hello! I’m <strong>NM Tousik</strong>, a Computer Science and Technology student at Sherpur Polytechnic Institute. I’m passionate about technology, programming, and web development.</p><p>Right now, I’m strengthening my foundations in HTML, CSS, JavaScript, and other programming languages while exploring tools like Git and GitHub. My goal is to grow into a professional web developer and turn ideas into useful digital experiences.</p></div>
+        <div class="info-panel"><div class="info-row"><span class="info-icon">🎓</span><div><small>EDUCATION</small><strong>Sherpur Polytechnic Institute</strong><span>Computer Science & Technology</span></div></div><div class="info-row"><span class="info-icon">📚</span><div><small>SESSION</small><strong>2023–2024</strong><span>Diploma in Engineering</span></div></div><div class="info-row"><span class="info-icon">🎯</span><div><small>MY GOAL</small><strong>Professional Web Developer</strong><span>Learning, creating, improving</span></div></div></div>
+      </div>
+    </section>
 
-    <h2>My Skills</h2>
-    <p>HTML, CSS, JavaScript, PHP</p>
+    <section class="section container reveal" id="skills">
+      <div class="section-heading center"><p class="eyebrow">WHAT I'M LEARNING</p><h2>My <span class="gradient-text">Skills</span></h2><p class="section-subtitle">Growing my toolkit through practice and projects.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-symbol orange">5</span><h3>HTML</h3><p>Structuring meaningful web pages.</p><span class="skill-level">Learning foundation</span></article>
+        <article class="skill-card"><span class="skill-symbol blue">3</span><h3>CSS</h3><p>Styling layouts and responsive designs.</p><span class="skill-level">Learning foundation</span></article>
+        <article class="skill-card"><span class="skill-symbol yellow">JS</span><h3>JavaScript</h3><p>Adding interaction and behavior.</p><span class="skill-level">Currently learning</span></article>
+        <article class="skill-card"><span class="skill-symbol purple">PHP</span><h3>PHP</h3><p>Exploring server-side development.</p><span class="skill-level">Exploring</span></article>
+        <article class="skill-card"><span class="skill-symbol red">J</span><h3>Java</h3><p>Practicing programming concepts.</p><span class="skill-level">Learning</span></article>
+        <article class="skill-card"><span class="skill-symbol green">⌘</span><h3>Git & GitHub</h3><p>Tracking code and sharing projects.</p><span class="skill-level">Getting started</span></article>
+      </div>
+    </section>
 
-    <h2>My Goal</h2>
-    <p>Become a Professional Web Developer.</p>
+    <section class="section container reveal" id="journey">
+      <div class="section-heading"><p class="eyebrow">MORE THAN CODE</p><h2>My interests & <span class="gradient-text">journey</span></h2></div>
+      <div class="journey-grid">
+        <article class="interest-card"><span class="interest-icon">⚽</span><div><h3>Football & Messi</h3><p>A passionate Argentina supporter and Lionel Messi fan. Football is a big part of my inspiration.</p></div></article>
+        <article class="interest-card"><span class="interest-icon">🎮</span><div><h3>eFootball Organizer</h3><p>I organize eFootball tournaments, manage fixtures, and bring players together through competition.</p></div></article>
+        <article class="interest-card"><span class="interest-icon">🌐</span><div><h3>Web Projects</h3><p>Building my personal portfolio and exploring how websites work from design to development.</p></div></article>
+      </div>
+    </section>
 
+    <section class="contact-section container reveal" id="contact">
+      <p class="eyebrow">HAVE A PROJECT OR JUST WANT TO SAY HI?</p><h2>Let's create something<br><span class="gradient-text">meaningful.</span></h2>
+      <p class="contact-copy">Thanks for visiting my portfolio. I’m always happy to connect, learn, and share ideas.</p>
+      <a class="button button-primary" href="mailto:nmtousikofficial@gmail.com">Email me <span>↗</span></a>
+      <div class="social-links" aria-label="Social media links">
+        <a href="https://www.facebook.com/tousik.edt" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><span class="social-icon">f</span><span>Facebook</span><span class="social-arrow">↗</span></a>
+        <a href="https://www.instagram.com/nm_tousik/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><span class="social-icon">◎</span><span>Instagram</span><span class="social-arrow">↗</span></a>
+        <a href="https://github.com/nmtousikofficial" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><span class="social-icon">⌘</span><span>GitHub</span><span class="social-arrow">↗</span></a>
+        <a href="https://www.linkedin.com/in/nm-tousik/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><span class="social-icon">in</span><span>LinkedIn</span><span class="social-arrow">↗</span></a>
+      </div>
+      <p class="contact-note">Gmail: nmtousikofficial@gmail.com</p>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="logo" href="#home">NM<span>.</span></a><p>Designed with curiosity by NM Tousik</p><p>© <span id="year">2026</span> All rights reserved.</p></div></footer>
+  <script src="script.js"></script>
 </body>
 </html>
